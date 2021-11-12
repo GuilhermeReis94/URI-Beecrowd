@@ -1,0 +1,7 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT DISTINCT city 
+FROM providers 
+ORDER BY city

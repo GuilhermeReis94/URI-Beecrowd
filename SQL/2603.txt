@@ -1,0 +1,6 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT name, street FROM customers 
+WHERE city = 'Porto Alegre'

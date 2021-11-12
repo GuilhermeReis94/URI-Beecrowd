@@ -1,0 +1,6 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT MAX(price), MIN(price) 
+FROM products

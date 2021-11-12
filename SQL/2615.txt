@@ -1,0 +1,5 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT DISTINCT city FROM customers

@@ -1,0 +1,6 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT id, password, MD5(password) AS MD5
+FROM account 

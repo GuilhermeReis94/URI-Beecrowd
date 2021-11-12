@@ -1,0 +1,6 @@
+/*
+	Feito por Guilherme Reis
+*/
+
+SELECT name FROM customers 
+WHERE state = 'RS'
