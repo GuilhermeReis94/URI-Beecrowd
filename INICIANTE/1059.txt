@@ -1,0 +1,16 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+
+int main(){
+	
+	int par = 2;
+	
+	do
+	{
+		printf("%d\n", par);
+		par = par + 2;
+	}while (par <= 100);
+	
+	return 0;
+}

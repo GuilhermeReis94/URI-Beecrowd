@@ -1,0 +1,20 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+
+int main(){
+	
+	int N, ctd, vezes;
+	
+	do{
+		scanf("%d", &N);	
+	}
+	while((N > 1000) || (N < 2));
+	
+	for(ctd = 1; ctd < 11; ctd++){
+		vezes = ctd * N;
+		printf("%d x %d = %d\n", ctd, N, vezes);
+	}
+	
+	return 0;
+}

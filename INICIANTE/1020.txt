@@ -1,0 +1,26 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int idadeDias, ano, mes, dia;
+    int tot = 0;
+    
+    scanf("%d", &idadeDias);
+    
+    tot = idadeDias;
+    
+    ano = idadeDias / 365;
+    tot = tot - (ano * 365);
+    mes = tot / 30;
+	tot = tot - (mes * 30);
+	dia = tot / 1;
+    
+    
+    printf("%d ano(s)\n", ano);
+    printf("%d mes(es)\n", mes);
+    printf("%d dia(s)\n", dia);
+ 
+    return 0;
+}

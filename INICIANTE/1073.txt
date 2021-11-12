@@ -1,0 +1,20 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int par = 2, n, quad;
+	
+	scanf("%d", &n);
+	
+	do
+	{
+		quad = pow(par, 2);
+		printf("%d^2 = %d\n", par, quad);
+		par = par + 2;
+	}while (par <= n);
+	
+	return 0;
+}

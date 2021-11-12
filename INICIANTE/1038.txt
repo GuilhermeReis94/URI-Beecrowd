@@ -1,0 +1,41 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+
+int main (){
+	
+	float total = 0;
+	int escolha, quantidade;
+	
+	scanf("%d %d", &escolha, &quantidade);
+	
+	switch(escolha)
+	{
+		case 1 :
+		total = 4.00 * quantidade;
+		printf("Total: R$ %.2f\n", total);
+		break;
+		
+		case 2 :
+		total = 4.50 * quantidade;
+		printf("Total: R$ %.2f\n", total);
+		break;
+		
+		case 3 :
+		total = 5.00 * quantidade;
+		printf("Total: R$ %.2f\n", total);
+		break;
+		
+		case 4 :
+		total = 2.00 * quantidade;
+		printf("Total: R$ %.2f\n", total);
+		break;
+		
+		case 5 :
+		total = 1.50 * quantidade;
+		printf("Total: R$ %.2f\n", total);
+		break;	
+	}
+	
+	return 0;
+}

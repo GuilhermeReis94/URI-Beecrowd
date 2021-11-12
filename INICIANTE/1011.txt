@@ -1,0 +1,19 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+#include <math.h>
+ 
+int main() {
+ 
+    double raio, volume, R, pii = 3.14159;
+    
+    scanf("%lf", &raio);
+    
+    R = pow(raio, 3);
+    
+    volume = ((4.0/3) * pii) * R;
+    
+    printf("VOLUME = %.3lf\n", volume);
+ 
+    return 0;
+}
