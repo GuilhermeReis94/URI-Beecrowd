@@ -1,0 +1,20 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    double A, B, C, media, As, Bs, Cs;
+    
+    scanf("%lf" "%lf" "%lf", &A, &B, &C);
+    
+    As = A * 2;
+    Bs = B * 3;
+    Cs = C * 5;
+    
+    media = (As + Bs + Cs) / 10;
+
+    printf("MEDIA = %.1lf\n", media);
+ 
+    return 0;
+}

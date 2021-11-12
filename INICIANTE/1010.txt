@@ -1,0 +1,22 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    int codPec1, nuPec1, codPec2, nuPec2;
+    double valPec1, valPec2, val1, val2, tot;
+    
+    scanf("%i" "%i" "%lf", &codPec1, &nuPec1, &valPec1);
+    scanf("%i" "%i" "%lf", &codPec2, &nuPec2, &valPec2);
+ 
+    val1 = nuPec1 * valPec1;
+    val2 = nuPec2 * valPec2;
+    
+    tot = val1 + val2;
+    
+
+    printf("VALOR A PAGAR: R$ %.2lf\n", tot);
+ 
+    return 0;
+}

@@ -1,0 +1,10 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+ 
+int main() {
+ 
+    printf("Hello World!\n");
+ 
+    return 0;
+}
