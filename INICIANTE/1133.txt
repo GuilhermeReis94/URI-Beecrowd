@@ -1,0 +1,24 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+
+int main(){
+	
+	int X, Y, maior, menor, ctd;
+	
+	do{
+		scanf("%d %d", &X, &Y);
+	}
+	while((X<1)||(Y<1));
+	
+	if(X<Y){ maior = Y; menor = X;}
+	else{ maior = X; menor = Y;}
+	
+	for(ctd = menor + 1; ctd < maior; ctd++){
+		if((ctd % 5 == 2) || (ctd % 5 == 3)){
+			printf("%d\n", ctd);
+		}
+	}
+	
+	return 0;
+}

@@ -1,0 +1,25 @@
+// Feito por Guilherme Reis
+
+#include<stdio.h>
+
+int main(){
+    
+    int N, ctd;
+    
+    do{
+    	scanf("%d", &N);
+	}
+	while(N < 0);
+	
+	for(ctd = 1; ctd <= 4 * N; ctd++){
+		if(ctd % 4 == 0){
+			printf("PUM\n");
+		}
+		else{
+			printf("%d ", ctd);
+		}
+		
+	}
+	
+    return 0;
+}

@@ -1,0 +1,30 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+
+int main(){
+	
+	int X, Y, soma = 0, ctd, maior, menor;
+		
+	scanf("%d %d", &X, &Y);
+	
+	if(X<Y){
+		maior = Y;
+		menor = X;
+	}
+	else{
+		maior = X;
+		menor = Y;
+	}
+
+	
+	for(ctd = menor; ctd <= maior; ctd++){
+		if(ctd % 13 != 0){
+			soma = soma + ctd;
+		}	
+	}
+	printf("%d\n", soma);
+	
+	
+	return 0;
+}

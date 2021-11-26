@@ -1,0 +1,23 @@
+// Feito por Guilherme Reis
+
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+	
+	int n, ctd, quad, cub;
+	
+	do{
+		scanf("%d", &n);
+	}
+	while((n > 1000) || (n < 1));
+	
+	for(ctd = 1; ctd <= n; ctd++){
+		quad = pow(ctd, 2);
+		cub = pow(ctd, 3);
+		printf("%d %d %d\n", ctd, quad, cub);	
+	}
+	
+	
+	return 0;
+}
